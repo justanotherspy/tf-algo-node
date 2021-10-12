@@ -39,6 +39,6 @@ resource "aws_security_group" "sg" {
   }]
   tags = {
     "project" = "algorand"
-    "Name"    = "algo-sg"
+    "Name"    = "algo-security-group"
   }
 }
